@@ -264,7 +264,7 @@ for i := 0; i<maxNeedle; i++ {
 
 ## 性能
 
-介绍完所有方式，我们来实际对比下每种算法的性能。测试源码位于 gotin_test.go 文件中。
+介绍完所有方式，我们来实际对比下每种算法的性能。测试源码位于 [gotin_test.go](https://github.com/poloxue/gotin/blob/master/gotin_test.go) 文件中。
 
 基准测试主要是从数据量大小考察不同算法的性能，本文中选择了三个量级的测试样本数据，分别是 10、1000、1000000。
 
