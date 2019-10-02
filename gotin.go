@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	ErrUnSupportHaystack = errors.New("haystack must be slice, array or map")
+	ErrUnSupportHaystack = errors.New("haystack must be slice, array")
 )
 
 func In(haystack interface{}, needle interface{}) (bool, error) {
